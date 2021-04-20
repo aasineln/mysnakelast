@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mySnake</title>
+	<link rel="icon" href="img/icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2|Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js" defer></script>
+</head>
+<body>
+
+<main>
+	<!--by Sinelnikov Alexey-->
+	<!--e-mail: alex.sinelnikof@gmail.com-->
+	<div class="container" id="swipe">
+		<div class="wrap">
+			<!--Меню. Текущий счёт. Рекорд. Уровень. Next level-->
+			<div class="menu-top">
+				<div class="menu-top-left">
+				  <div class="food-score"></div>
+				  <div id="score">&nbsp;0</div>
+				  <div class="trophy"></div>
+				  <div id="best-score">&nbsp;0</div>
+				</div>
+				<div class="level">Уровень 1</div>
+				<div class="main-right">
+				<div class="next-level">Next level:&nbsp;</div>
+				<div class="next-level-score">5</div>
+				<div class="food-score food-score-right"></div>
+			</div>
+			</div>
+			<!--Игровое поле-->
+			<div id="snake-field">
+				<!--Меню. "Новая игра". Выбор уровня сложности-->
+				<div class="main-menu">
+					<div class="your-score"></div>
+				<div class="buttons">
+					<div id="snake-new-game">Новая игра</div>
+				</div>
+					<fieldset>
+					<legend class="">Уровень сложности
+					<div class="difficulty">
+						<div class="star star-fill"></div>
+						<div class="star star-fill"></div>
+						<div class="star star-free"></div>
+					</div>
+					</legend>
+					</fieldset>
+				</div>
+				<!--Пауза-->
+				<div class="pause">Пауза</div>
+			</div>
+		</div>
+    <div id="pause-for-mobile">Немного отдохнуть</div>
+	</div>
+</main>
+</body>
+</html>
